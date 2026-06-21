@@ -8,7 +8,7 @@ fuses a dense MiniLM signal with cluster-level BM25 and a late-interaction reran
 
 ## Presentation video
 
-📹 **Video:** <ADD PUBLIC VIDEO LINK HERE>
+📹 **Video:** https://drive.google.com/file/d/1VVL6-iCC6arSRFNMcxi4A8ElUxkHSask/view?usp=sharing
 
 ## Setup
 

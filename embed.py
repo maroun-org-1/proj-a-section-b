@@ -23,9 +23,7 @@ def embed_texts(texts: Sequence[str], *, batch_size: int = 64) -> np.ndarray:
     if not texts:
         return np.zeros((0, 384), dtype=np.float32)
     model = get_model()
-    
-    print(model.device)
-    
+        
     vectors = model.encode(
         list(texts),
         batch_size=batch_size,

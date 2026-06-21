@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# macOS / archive junk
+__MACOSX/
+.DS_Store
+**/.DS_Store
+
+# Corpus data (provided by staff in the handout)
+data/
+
+# Old / scratch / non-submission material
+artifacts_v0/
+scratch/
+section a/
+*.zip
+Project A-5.pdf
+reqs.txt
+s

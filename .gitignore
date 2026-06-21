@@ -10,8 +10,10 @@ __MACOSX/
 .DS_Store
 **/.DS_Store
 
-# Corpus data (provided by staff in the handout)
-data/
+# Corpus data: exclude the large corpus, but keep public queries so
+# scripts/eval_public.py runs on a fresh clone.
+data/*
+!data/public_queries.json
 
 # Old / scratch / non-submission material
 artifacts_v0/
